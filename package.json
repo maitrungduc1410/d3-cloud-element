@@ -1,0 +1,59 @@
+{
+  "name": "d3-cloud-element",
+  "version": "1.0.1",
+  "main": "build/main.js",
+  "module": "build/main.js",
+  "title": "Lit Element D3 Word Cloud",
+  "description": "D3 word cloud component for Lit Element built upon d3-cloud",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack serve --open --mode development",
+    "build": "NODE_ENV=production webpack --mode production"
+  },
+  "devDependencies": {
+    "@types/d3-cloud": "^1.2.3",
+    "@types/d3-scale": "^3.2.2",
+    "@types/d3-scale-chromatic": "^2.0.0",
+    "@types/d3-selection": "^2.0.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.2.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "d3-cloud": "^1.2.5",
+    "d3-scale": "^3.2.3",
+    "d3-scale-chromatic": "^2.0.0",
+    "d3-selection": "^2.0.0",
+    "lit-element": "^2.4.0"
+  },
+  "author": {
+    "email": "maitrungduc1410@gmail.com",
+    "name": "Mai Trung Duc",
+    "url": "https://github.com/maitrungduc1410"
+  },
+  "repository": {
+    "url": "https://github.com/maitrungduc1410/d3-cloud-element.git",
+    "type": "git"
+  },
+  "bugs": {
+    "email": "maitrungduc1410@gmail.com",
+    "url": "https://github.com/maitrungduc1410/d3-cloud-element/issues"
+  },
+  "homepage": "https://github.com/maitrungduc1410/d3-cloud-element",
+  "readme": "README.md",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "keywords": [
+    "d3-cloud-element",
+    "d3-cloud-lit-element",
+    "d3 cloud element",
+    "word cloud",
+    "d3 word cloud",
+    "lit element word cloud",
+    "d3 cloud"
+  ]
+}
